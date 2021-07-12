@@ -1,0 +1,7 @@
+get_the_n_day_humidity:
+  - by: xpath
+    locator: '${date}'
+    action: find_scroll
+  - by: xpath
+    locator: '//*[@text="${date}"]/../..//*[@resource-id="hko.MyObservatory_v1_0:id/sevenday_forecast_rh" and @index="3"]'
+    action: text

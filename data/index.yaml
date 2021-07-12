@@ -1,0 +1,21 @@
+click_serve:
+  - by: xpath
+    locator: '//android.widget.ImageButton[@content-desc="Navigate up"]'
+    action: wait_click
+  - by: xpath
+    locator: '//android.widget.ImageButton[@content-desc="Navigate up"]'
+    action: click
+
+
+clcik_home:
+  - by: xpath
+    locator: '//androidx.appcompat.app.ActionBar.Tab[@content-desc="Local Forecast"]'
+    action: wait_click
+  - by: xpath
+    locator: '//androidx.appcompat.app.ActionBar.Tab[@content-desc="Local Forecast"]'
+    action: click
+
+goto_the_9_day_forecast:
+  - by:
+    locator: '9-Day Forecast'
+    action: find_scroll_click

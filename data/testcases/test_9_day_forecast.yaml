@@ -1,0 +1,2 @@
+test_get_the_n_day_humidity:
+  - {date: "15"}
